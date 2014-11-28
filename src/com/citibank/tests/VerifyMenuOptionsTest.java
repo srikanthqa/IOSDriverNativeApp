@@ -3,14 +3,18 @@ package com.citibank.tests;
 import com.citibank.pages.HomePage;
 import com.citibank.pages.LoginPage;
 import com.citibank.pages.MenuPage;
+import com.citibank.testsuites.RegressionTests;
+import com.citibank.testsuites.SmokeTests;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
 /**
  * Created by Srikanth on 11/27/14.
  */
 public class VerifyMenuOptionsTest extends AbstractTest{
 
+    @Category(RegressionTests.class)
     @Test
     public void testVerifyMenuOptions(){
         LoginPage lp=tc.clickAcceptButton().clickSignOnButton();

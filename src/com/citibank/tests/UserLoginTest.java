@@ -1,10 +1,12 @@
 package com.citibank.tests;
 
 import com.citibank.pages.*;
+import com.citibank.testsuites.SmokeTests;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 
@@ -13,6 +15,7 @@ import org.openqa.selenium.support.PageFactory;
  */
 public class UserLoginTest extends AbstractTest{
 
+    @Category(SmokeTests.class)
     @Test
     public void testUserLogin() throws Exception{
         LoginPage lp=tc.clickAcceptButton().clickSignOnButton();

@@ -3,14 +3,17 @@ package com.citibank.tests;
 import com.citibank.pages.HomePage;
 import com.citibank.pages.LoginPage;
 import com.citibank.pages.MenuPage;
+import com.citibank.testsuites.SmokeTests;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
 /**
  * Created by Srikanth on 11/27/14.
  */
 public class UserLogoutTest extends AbstractTest{
 
+    @Category(SmokeTests.class)
     @Test
     public void testUserLogout(){
         LoginPage lp=tc.clickAcceptButton().clickSignOnButton();
