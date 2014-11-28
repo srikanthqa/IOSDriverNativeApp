@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>onslide</key>
+	<dict>
+		<key>ext_acc_type</key>
+		<string>ReadWrite,SegUI</string>
+		<key>ext_out_type</key>
+		<string>LuaCallBack</string>
+		<key>int_type</key>
+		<string>CallBack</string>
+		<key>ext_in_type</key>
+		<string>LuaCallBack</string>
+		<key>int_name</key>
+		<string>onSlideCallBack</string>
+	</dict>
+	<key>selectedindex</key>
+	<dict>
+		<key>ext_acc_type</key>
+		<string>ReadWrite,SegUI</string>
+		<key>ext_out_type</key>
+		<string>LuaIndex</string>
+		<key>int_type</key>
+		<string>NativeIndex</string>
+		<key>ext_in_type</key>
+		<string>LuaIndex</string>
+		<key>int_name</key>
+		<string>selectedIndex</string>
+	</dict>
+	<key>rightsidetext</key>
+	<dict>
+		<key>ext_acc_type</key>
+		<string>ReadOnly,SegUI</string>
+		<key>ext_out_type</key>
+		<string>LuaString</string>
+		<key>int_type</key>
+		<string>NSString</string>
+		<key>ext_in_type</key>
+		<string>LuaString</string>
+		<key>int_name</key>
+		<string>rightSideText</string>
+	</dict>
+	<key>leftsidetext</key>
+	<dict>
+		<key>ext_acc_type</key>
+		<string>ReadOnly,SegUI</string>
+		<key>ext_out_type</key>
+		<string>LuaString</string>
+		<key>int_type</key>
+		<string>NSString</string>
+		<key>ext_in_type</key>
+		<string>LuaString</string>
+		<key>int_name</key>
+		<string>leftSideText</string>
+	</dict>
+</dict>
+</plist>

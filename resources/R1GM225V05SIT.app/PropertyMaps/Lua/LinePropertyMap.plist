@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>thickness</key>
+	<dict>
+		<key>ext_acc_type</key>
+		<string>ReadWrite,SegUI</string>
+		<key>ext_out_type</key>
+		<string>JSNumber</string>
+		<key>ext_in_type</key>
+		<string>JSNumber</string>
+		<key>int_type</key>
+		<string>NSNumber</string>
+		<key>int_name</key>
+		<string>thickness</string>
+	</dict>
+</dict>
+</plist>

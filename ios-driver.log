@@ -1,0 +1,23 @@
+03:54:120 INFO ApplicationStore.<init>  App archive folder:/Users/Srikanth/IdeaProjects/CitiBankSIT/applications
+03:54:796 FINE IOSServer.p  version:663b7cc0a7a48ff629b1bcb39bbd78aed1c1e560
+03:54:796 FINE IOSServer.p  Beta features enabled (enabled by -real flag): false
+03:54:796 FINE IOSServer.p  Simulator enabled : true
+03:54:797 FINE IOSServer.p  Inspector: http://0.0.0.0:4444/inspector/
+03:54:797 FINE IOSServer.p  Tests can access the server at http://0.0.0.0:4444/wd/hub
+03:54:797 FINE IOSServer.p  Server status: http://0.0.0.0:4444/wd/hub/status
+03:54:798 FINE IOSServer.p  Connected devices: http://0.0.0.0:4444/wd/hub/devices/all
+03:54:798 FINE IOSServer.p  Applications: http://0.0.0.0:4444/wd/hub/applications/all
+03:54:798 FINE IOSServer.p  Capabilities: http://0.0.0.0:4444/wd/hub/capabilities/all
+03:54:799 FINE IOSServer.p  Monitoring '/Users/Srikanth/IdeaProjects/CitiBankSIT/applications' for new applications
+03:54:799 FINE IOSServer.p  Archived apps: /Users/Srikanth/IdeaProjects/CitiBankSIT/applications
+03:54:799 FINE IOSServer.p  Build info: ios-driver 0.6.6-SNAPSHOT (built:20141009-1559,sha:663b7cc0a7a48ff629b1bcb39bbd78aed1c1e560)
+03:54:800 FINE IOSServer.p  Running on: Mac OS X 10.10.1 (x86_64)
+03:54:800 FINE IOSServer.p  Using java: 1.7.0_71
+03:54:800 FINE IOSServer.p  Using Xcode install: /Applications/Xcode.app
+03:54:800 FINE IOSServer.p  Using instruments: version:6.1, build: 56160
+03:54:801 FINE IOSServer.p  Using iOS version 8.1
+03:56:354 FINE IOSServer.p  iOS >= 6.0. Safari and hybrid apps are supported.
+03:56:354 FINE IOSServer.p  Applications :
+03:56:354 FINE IOSServer.p  	CFBundleName=R1GM225V05SIT,CFBundleVersion=6.11,/Users/Srikanth/IOSDriver/R1GM225V05SIT.app
+03:56:355 FINE IOSServer.p  	CFBundleName=Safari,CFBundleVersion=9537.53,/Users/Srikanth/.ios-driver/safariCopies/safari-7.1.app
+03:56:355 FINE IOSServer.p  	CFBundleName=Safari,CFBundleVersion=600.1.4,/Users/Srikanth/.ios-driver/safariCopies/safari-8.1.app

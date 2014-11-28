@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--/**
+cache : module to be downloaded on initial load (startup ), this will be added to .manifest file. - Optional
+forms : list of ids of forms, popups, templates (seg,datagrid, header, footer... etc)  - Optional
+modules : js modules required for this functional module, - Optional
+depends : Other functional modules required for this module. - Optional
+
+Either forms or modules should be provided for a module.
+**/-->
+<functionalModules projectName="CitiGlobalUI">
+   <functionalModule name="KonydefaultModules" cache="true">
+      <jsModules>konylibrary.js,appskins.js,application.js,startup.js</jsModules>
+   </functionalModule>
+   <functionalModule name="commonModulesLoading" cache="true">
+      <jsModules>GMutility.js,GMutilSecurity.js,GMutil.js,GMDeltaWallet.js,GM_commonNA.js,GMCitilibrary.js,GMSiteCatalystTC.js,GMAmtValidation.js,GMSiteCatalyst.js,GMServiceHandle.js,GMConstants.js,GMPN_DeepDive.js,GMBjsUtils.js,GMPN_Registration.js,GM_destroy.js,GM_FlipTransition_MapListViews.js,GMTest_Envsettings.js,GMSON_SignOn.js,FAQ_populatingScreens.js,GM_Transitions.js,GM_TransitionDefinitionsiPhone.js,GMMFA_Mfa.js,GMSP_SneakPeak.js,GMFMC_CitiLocator.js,GMCitiRuntime.js,WhiteListUtil.js,GMMO_Offers.js,GMMFA_Cyota.js,GM_E2E_Encryption.js,GMCitiCryptoUtils.js,aes.js,hmac-sha256.js,pbkdf2.js</jsModules>
+      <forms>ftrGMTransperent,ftrApplyAmount,ftrApplyDateForCredit,ftrHelpOverlayLedger,ftrApplyDateForSavings,ftrApplyTransactionType,ftrGMDEOFilterOffers,ftrGMLocationSearch,ftrGMPAYConfirmTC,ftrGMPayDisclaimer,ftrGMMOOffers,ftrGMPreSearchRewards,ftrLocationSearchCancel,ftrMakeTransaction,ftrMfaChallengeQues,ftrMfaEnterOTP,ftrMfaNotSetup,ftrMfaOTPEnterPwd,ftrMfaOTPInitial,ftrTermsNCondTC,ftrTransDetails,ftrGMRewardsSearchTC,ftrAccSearchMainFooter,ftrBranchDetails,ftrGMCnfrm,hdrNACnclDone,hdrGMStyle7,hdrNAPopMoney,hdrNAPopMoneySendMoneyConfirmation,hdrGMDOEStyle1,hdrGMRewardDetails,hdrGMRewardRewards,hdrGMRewards,hdrGMVerifyRewards,hdrGMContactBankAccounts,hdrGMACCCrdtDtls,hdrGMMOOffers,hdrGMAccessPoint,hdrGMGeneralHeaderStyle2,hdrGMMfaCitiPassEnterOTP,hdrGMMfaNotSetup,hdrGMMfaOTPEnterPass,hdrMfaChallengeQuestion,hdrMfaOTPChooseMethod,hdrMfaOTPInitial,mapTemplate,segTemplateDefaultRewards,segTemplateRecentRewards,segTemplateTxnError,segTemplateVerifyOne,segTemplateVerifyTwo,segTemplateFuture,segTemplateRedeemed,segTemplateLink,segTemplateNote,segTemplateSectionHeader,segTemplateFeatured,segTemplateNonFeatured,segTemplateTransparent,segTemplatePast,segTemplatePending,popGMMapDetails,popGMHelp,popGMMOAccList,popGMCurrencySelection,popGMSessionTimedOut,popGMUpgradeUpdate,popGMSignOff,popGMContactUs,popGMOverlay,popGMCustomerMessaging,popGMCommonError,popGMConfirmSneakPeek,popGMEnableDisableSneakPeek,popGMNotAvailableSneakPeek,popGMSneakPeekSignOn,popGMHelpOverlayDashboard,popGMHelpOverlayLedger,popGMOTPCancelConfirm,popGMSaveContinue,popGMSneakPeakBubble,ftrGMLanding,ftrGMLedgerView,ftrGMPrivacy,hdrGMGeneralHeaderStyle1,hdrGMSignOnStyle2WithoutRgtBtn,hdrGMSneakPeak,hdrGMStyle2,hdrGMStyle3,hdrGMStyle4,hdrGMStyle4a,hdrGMStyle4b,hdrGMStyle4c,hdrGMStyle4Locator,hdrGMStyle4WithoutRgtBtn,hdrGMStyle4WithoutRgtBtnHelp,hdrGMStyle5,hdrGMStyle5b,hdrGMTnC,hdrLocatorSearch,hdrNAStyle4,hdrNAStyle4WithoutRgtBtn,hdrNAStyle5,hdrStyle4,popGMDeleteUserConfirmation,popGMWelcomeMsg,frmGMLanding,frmGMForgotIdNRegister,frmGMSignon,frmGMSignonCINPIN,frmGMSignOnConfirm,frmGMSignOnDeleteUserIds,frmGMSignOnRemembered,frmGMSignOnRemUserId,frmGMSignOnUserProfiles,frmGMTermsnConditions,frmGMStartup,frmGMGlobalHome,frmGMEnvSettings,frmGMMfaNotSetUp,frmGMDummyLedgerScreen,frmGMDummyDashboard,frmGMMOOfferList,frmGMMerchantOffersDetails</forms>
+      <dependentModules />
+   </functionalModule>
+      <functionalModule name="postLaunchLoading" cache="true">
+      <dependentModules>commonModulesLoading</dependentModules>
+      <jsModules>GM_FlipTransition.js,GMMFA_CitiPass.js,GMACC_accountActivity.js,CitiPass_ds3Replacements.js,GMOL_OpinionLab.js,GMORCC.js,GM_FlipTransition_Promotions.js,GMMfa_PopupNavigations.js,GMACC_accountSummary.js,GM_CMAMT.js,GMCNT_contactUs.js,GMMFA_Cyota.js,GMMFATC_Cyota.js,GMFAV_MyFavorites.js,GMNAV_menu.js,GM_GHome.js,NARDCmobileDeposit.js,GMMCDLowMemoryHandling.js</jsModules>
+      <forms>frmGMTermsnConditionsView,frmGMLocationSearch,frmGMOpinionLab,frmGMHelpDesc,frmGMHelpHomeScr,frmGMListView,frmGMMapBranchDetail,frmGMMapList,frmGMMapView,frmGMContactLanding,frmGMContactUs,frmGMPrivacy,frmGMSettingsHome,frmGMMfaChallengeQuestion,frmGMMFACitiPassEnterOTP,frmGMMfaOTPChooseMethod,frmGMMfaOTPEnterPassword,frmGMMfaOTPInitial,frmGMGlobalNav</forms>
+   </functionalModule>
+   <functionalModule name="postSignonLoading">
+      <!-- After giving valid credentials-->
+      <dependentModules>commonModulesLoading,postLaunchLoading</dependentModules>
+      <forms>popKeepAlive,popGMSPNotAvailable,popGMOTPCancelConfirm,popCitiwallet,popGMContactUs,popGMCustomerMessaging,popGMHelp,popGMMapDetails,popGMOverlay,popGMReedemRewards,popGMSaveContinue,popGMSessionTimedOut,popOverLayHelp,popReedemRewards,popGMACCCheckImageHelpOverlay,popGMSP,popGMSPOtherDeviceEnrollConfirmation,frmGMPayProcessingError,frmGMPAYPurpose,frmGMPAYError,frmGMPAYSelectDate,frmGMPAYTo,frmGMPAYTransferLedger,frmGMPAYVerification,frmGMPAYConfirmation,frmGMPAYDisclaimer,frmGMPAYFrom,frmGMPAYNoFundingAccount,frmGMPAYMakeTransaction,frmGMACCHome,frmGMACCCreditCardLedger,frmGMACCNoAccounts,frmGMACCCreditCardAccountDetails,frmGMACCSearchByDateSliderCreditCard,frmGMDOEOfferDetails,frmGMCitiWallet,frmGMContactBankAccounts,frmGMDOEFilterBy,frmGMDOEOffersList,frmGMDOESelectOptions,frmGMForgotIdNRegister,frmGMGlobalRewards,frmGMSessionTimedOut,frmGMACCSearchByDateSliderSavings,frmGMSneakPeakLandingInfo,frmGMSneakPeakPromo,frmGMSPSplashScreen,frmGMSPActivationStatus,frmGMACCCheckImageBack,frmGMACCCheckImageFront,frmGMACCCheckImageZoom</forms>
+      <jsModules>GMACC_accountDetails.js,GMPAY_GetSupportedPayeesAndAccounts.js,GMACC_accountLedger.js,GMACC_transactionDetails.js,GMACC_creditCard.js,GMPAY_ContextualPayments.js,GMPAY_GetPayeeList.js,GMPAY_editCancelPayments.js,GMPAY_sourceAndDestinationAccounts.js,GMPAY_verifyAuthorizePT.js,GMDOE_merchantOffers.js,GMCitiWallet.js,NAP2P_popMoney.js,GMRRE_dashboard.js,GMACC_accountSearch.js,GMRRE_rewardDetails.js,GMRRE_RewardsSearch.js,NAP2P_sendMoney.js,GMKeepAlive.js</jsModules>
+   </functionalModule>
+   <functionalModule name="accountsModule">
+      <!-- Form Accounts-->
+      <dependentModules>commonModulesLoading,postLaunchLoading,postSignonLoading</dependentModules>
+      <forms>frmGMACCInvestments,frmGMACCLatePaymentWarning,frmGMACCMinimumPaymentWarning,frmGMACCSearchByAmount,frmGMACCSearchByDate,frmGMACCSearchMain,frmGMACCSearchTransactionType,frmGMACCTransactionDetails,frmGMACCSearchByDateCal,frmGMACCSearchByDateRange,frmGMACCSearchByStatement,frmGMACCSorting</forms>
+      <jsModules>GMACC_accountSearchUI.js</jsModules>
+   </functionalModule>
+       <functionalModule name="mcdModule"><!-- Form MCD-->
+        <dependentModules>commonModulesLoading,postLaunchLoading,postSignonLoading</dependentModules>
+        <forms>frmNARDCAndroidCamOverLay,frmNARDCAndroidCamOverLayBack,frmNARDCAndroidCamOverLayBackPreviewRetake,frmNARDCAndroidCamOverLayBackRetake,frmNARDCAndroidCamOverLayPreviewRetake,frmNARDCAndroidCamOverLayRetake,frmNARDCCamPreview,frmNARDCCamPreviewBack,frmNARDCCamPreviewBackIphone,frmNARDCCamPreviewIphone,frmNARDCConfirmation,frmNARDCEmail,frmNARDCError,frmNARDCListAccDeposits,frmNARDCListAccounts,frmNARDCTerms,frmNARDCTermsnConditionsView</forms>
+    </functionalModule>	
+	<functionalModule name="popMoneyModule"><!-- Form Popmoney-->
+        <dependentModules>commonModulesLoading,postLaunchLoading,postSignonLoading</dependentModules>
+        <forms>popNAP2PCancel,popNAP2PDeleteContact,popNAP2PEmail,popNAP2PEmailRC,frmNAP2PAccompEmail,frmNAP2PAccountInfo,frmNAP2PAccountList,frmNAP2PAddContact,frmNAP2PAddVerificationFailed,frmNAP2PContactDetails,frmNAP2PContactLand,frmNAP2PEditContact,frmNAP2PEditPaymentDetails,frmNAP2PEditScheduledPaymentDetails,frmNAP2PEnrolledCustomer,frmNAP2PImportContacts,frmNAP2PNoAccountsAvailable,frmNAP2PNonEnrolledCustomer,frmNAP2PPaymentOnHold,frmNAP2PSelectAccountInfo,frmNAP2PSelectDate,frmNAP2PSendMoney,frmNAP2PSendMoneyAdditionalVerification,frmNAP2PSendMoneyConfirmation,frmNAP2PSendMoneyOTPVerification,frmNAP2PSendMoneyPaymentVia,frmNAP2PSendMoneyVerify,frmNAP2PTermsnConditions,frmNAP2PViewPayDetailsReceived,frmNAP2PViewPaymentActivity,frmNAP2PViewPaymentDetails,frmNAP2PViewScheduledPaymentDetails</forms>
+        <jsModules>NAP2P_popMoneyContacts.js</jsModules>
+    </functionalModule>	
+    	<functionalModule name="rewardsModule"><!-- Help, Contact Us and Location-->
+        <dependentModules>commonModulesLoading,postLaunchLoading,postSignonLoading</dependentModules>
+        <forms>frmGMRREVerifyRewards,frmGMRRERewardDetails,frmGMRRERewardList,frmGMRRENARewardsDesc,frmGMRRECitiRewardsHome,frmGMRREDefaultRewards</forms>
+        <jsModules></jsModules>
+    </functionalModule>
+	<functionalModule name="PNModule"><!-- Help, Contact Us and Location-->
+        <dependentModules>commonModulesLoading,postLaunchLoading,postSignonLoading</dependentModules>
+        <forms>popGMPushAccounts,popGMPushAccountsCC,popGMPushDeleteAlerts,frmGMPNAlertSummary,frmGMPNCCAlert,frmGMPNCheckAlert,frmGMPNDepositAlert,frmGMPNLowbalanceAlert,frmGMPNNewAlertSetUp,frmGMPNSelectDays,popGMPushFrequency</forms>
+        <jsModules>GMPN_PushManager.js</jsModules>
+    </functionalModule>
+</functionalModules>

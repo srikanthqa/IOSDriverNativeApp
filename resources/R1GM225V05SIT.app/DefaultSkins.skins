@@ -1,0 +1,969 @@
+{
+  "0": 
+  {
+    "SkinModel": "FormSkinModel",
+    "Skin": "FormSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "plain",
+      "font_name":"Arial",
+      "font_color":"00000000"
+    },
+    "focus": 
+    {
+      "id":"formDefaultFocusSkin",
+	  "background_color": "ff000000",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "ff000000",
+      "border_color": "b7d2ff00",
+      "border_width": 1,
+      "border_style": "rc"
+    }
+  },
+
+  "1": 
+  {
+    "SkinModel": "BoxSkinModel",
+    "Skin": "BoxSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+	  "background_color": "000000ff",
+      "background_style": "plain",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "0fffff00",
+      "background_image":"",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "plain"
+    },
+    "focus": 
+    {
+      "id":"boxDefaultFocusSkin",
+	  "background_color": "000000ff",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "ff000000",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "plain"
+    }
+  },
+  "2": 
+  {
+    "SkinModel": "LabelSkinModel",
+    "Skin": "LabelSkin",
+    "SkinTypes":[
+        "normal"
+    ],
+    "normal": {
+	  "background_color": "0xff000ff",
+      "background_style": "plain",
+      "background_image":"",
+      "border_color": "0xff000ff",
+      "border_width": 0,
+      "border_style": "plain",
+      "font_color":"00000000",
+      "font_style":"normal",
+      "font_name":"Arial",
+      "font_size":108,
+      "shadow_color":"00000000",
+      "shadowoffsetx":0,
+      "shadowoffsety":0
+    }
+  },
+
+  "3": 
+  {
+    "SkinModel": "ButtonSkinModel",
+    "Skin": "ButtonSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+     "id":"buttonDefaultnormalSkin",
+	  "background_color": "ffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"0000ff00",
+      "font_name":"Arial",
+      "font_size":100
+    },
+    "focus": 
+    {
+      "id":"buttonDefaultFocusSkin",
+	  "background_color": "0000ff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"ffffff00",
+      "font_name":"Arial",
+      "font_size":100
+    }
+  },
+  
+    "4": 
+  {
+    "SkinModel": "LinkSkinModel",
+    "Skin": "LinkSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+     "id":"linkDefaultnormalSkin",
+	  "background_color": "ffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"0000ff00",
+      "font_style":"none",
+      "font_name":"Arial",
+      "font_size":100
+    },
+    "focus": 
+    {
+      "id":"linkDefaultFocusSkin",
+	  "background_color": "0000ff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"ffffff00",
+      "font_style":"none",
+      "font_name":"Arial",
+      "font_size":100
+    }
+  },
+    "7": 
+  {
+    "SkinModel": "PickerViewSkinModel",
+    "Skin": "PickerViewSkin",
+    "SkinTypes":[
+        "normal"
+    ],
+    "normal": {
+      "border_color": "00000000",
+      "background_color" : "ffffffff",
+      "border_width": 0,
+      "border_style": "plain"
+    }
+  },
+  
+  
+      "200": 
+  {
+    "SkinModel": "BadgeSkinModel",
+    "Skin": "BadgeSkin",
+    "SkinTypes":[
+        "normal"
+    ],
+    "normal": 
+    {
+     "id":"____badgeDefaultnormalSkin___",
+	  "background_color": "ff000000",
+      "font_color":"ffffff00"
+    }
+  },
+  
+        "103":
+  {
+    "SkinModel": "AppMenuSkinModel",
+    "Skin": "AppMenuSkin",
+    "SkinTypes":[
+        "normal"
+    ],
+    "normal": 
+    {
+     "id":"____appMenuDefaultnormalSkin___",
+	  "background_color": "000000ff",
+    "font_color":"0000ff00"
+    }
+  },
+  
+          "104":
+  {
+    "SkinModel": "TitleBarSkinModel",
+    "Skin": "TitleBarSkin",
+    "SkinTypes":[
+        "normal"
+    ],
+    "normal": 
+    {
+     "id":"____titleBarDefaultnormalSkin___",
+	   "background_color": "000000ff",
+      "font_color":"0000ff00"
+    }
+  },
+  
+    "32": 
+  {
+    "SkinModel": "TextBoxSkinModel",
+    "Skin": "TextBoxSkin",
+    "SkinTypes":[
+        "normal",
+        "focus",
+        "placeholder"
+    ],
+    "normal": 
+    {
+     "id":"__textBoxDefaultnormalSkin__",
+	  "background_color": "ffffff00",
+      "background_style": "plain",
+      "border_color": "69696900",
+      "border_width": 2,
+      "border_style": "plain",
+      "font_color":"00000000",
+      "font_style":"italic",
+      "font_name":"Arial"
+    },
+    "focus": 
+    {
+      "id":"__textBoxDefaultFocusSkin__",
+	  "background_color": "ffffff00",
+      "background_style": "plain",
+      "border_color": "69696900",
+      "border_width": 2,
+      "border_style": "plain",
+      "font_color":"00000000",
+      "font_style":"italic",
+      "font_name":"Arial"
+    },
+    "placeholder":
+    {
+        "id":"__textBoxDefaultPlaceholderSkin__",
+        "font_color":"69696900"
+    }
+  },
+      "20": 
+  {
+    "SkinModel": "TextAreaSkinModel",
+    "Skin": "TextAreaSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+     "id":"__textAreaDefaultnormalSkin__",
+	  "background_color": "0xff000ff",
+      "background_style": "plain",
+      "background_image":"",
+      "border_color": "0xff000ff",
+      "border_width": 2,
+      "border_style": "plain",
+      "font_color":"00000000",
+      "font_style":"normal",
+      "font_name":"Arial",
+      "shadow_color":"00000000",
+      "shadowoffsetx":0,
+      "shadowoffsety":0
+    },
+    "focus": 
+    {
+      "id":"__textAreaDefaultFocusSkin__",
+      "background_style": "vg",
+	  "background_color": "0xff00000",
+      "background_gradient_top_color": "96beff00",
+      "background_gradient_bottom_color": "ffffff00",
+      "font_color": "00000000",
+      "border_color": "b7d2ff00",
+      "border_width": 1,
+      "border_style": "rc"
+    }
+  },
+  
+    "06": 
+  {
+    "SkinModel": "GroupWidgetSkinModel",
+    "Skin": "GroupWidgetSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+     "id":"groupwidgetDefaultnormalSkin",
+	  "background_color": "0xffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    },
+    "focus": 
+    {
+      "id":"groupwidgetDefaultFocusSkin",
+	  "background_color": "0xffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    }
+  },
+  
+      "12": 
+  {
+    "SkinModel": "ListBoxSkinModel",
+    "Skin": "ListBoxSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+     "id":"listBoxDefaultnormalSkin",
+	  "background_color": "0xffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    },
+    "focus": 
+    {
+      "id":"listBoxDefaultFocusSkin",
+	  "background_color": "0xffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    }
+  },
+  
+        "13": 
+  {
+    "SkinModel": "CheckBoxGroupSkinModel",
+    "Skin": "CheckBoxGroupSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+     "id":"checkBoxGroupDefaultnormalSkin",
+	  "background_color": "0xffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    },
+    "focus": 
+    {
+      "id":"checkBoxGroupDefaultFocusSkin",
+	  "background_color": "0xffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    }
+  },
+  
+        "14": 
+  {
+    "SkinModel": "ComboBoxSkinModel",
+    "Skin": "ComboBoxSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+     "id":"comboBoxDefaultnormalSkin",
+	  "background_color": "0xffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    },
+    "focus": 
+    {
+      "id":"comboBoxDefaultFocusSkin",
+	  "background_color": "0xffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    }
+  },
+  
+        "15": 
+  {
+    "SkinModel": "RadioButtonGroupSkinModel",
+    "Skin": "RadioButtonGroupSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+     "id":"radioButtonGroupDefaultnormalSkin",
+	  "background_color": "0xffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    },
+    "focus": 
+    {
+      "id":"radioButtonGroupDefaultFocusSkin",
+	  "background_color": "0xffffff00",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    }
+  },
+  
+    "8": 
+  {
+    "SkinModel": "RichTextSkinModel",
+    "Skin": "RichTextSkin",
+    "SkinTypes":[
+        "normal",
+        "linkSkin"
+    ],
+    "normal": 
+    {
+     "id":"richTextDefaultNormalSkin",
+	  "background_color": "0xff000ff",
+      "background_style": "plain",
+      "background_image":"",
+      "border_color": "0xff000ff",
+      "border_width": 0,
+      "border_style": "plain",
+      "font_color":"00000000",
+      "font_style":"normal",
+      "font_name":"Arial",
+      "shadow_color":"00000000",
+      "shadowoffsetx":0,
+      "shadowoffsety":0
+    },
+    "linkSkin": 
+    {
+      "id":"richTextDefaultLinkSkin",
+	  "background_color": "0xffffff00",
+      "font_name":"Arial",
+      "font_color": "0x0000ff00",
+      "font_style":"underline",
+      "background_style": "plain"
+    }
+  },
+  
+    "16": 
+  {
+    "SkinModel": "CalendarSkinModel",
+    "Skin": "CalendarSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+     "id":"defaultCalendarSkinModel",
+	  "background_color": "000000ff",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    },
+    "focus": 
+    {
+      "id":"calendarDefaultFocusSkin",
+	  "background_color": "000000ff",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "rc",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size":100
+    }
+  },
+  
+  "22": 
+  {
+    "SkinModel": "SegmentedUISkinModel",
+    "Skin": "SegmentedUISkin",
+    "SkinTypes":[
+        "normal",
+        "focus",
+        "sectionheader"
+    ],
+    "normal": 
+    {
+	  "background_color": "ffffff00",
+      "background_style": "plain",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "0fffff00",
+      "background_image":"",
+      "border_color": "00000000",
+      "border_width": 1,
+      "border_style": "plain",
+      "font_color":"00000000",
+      "font_style":"italic",
+      "font_name":"Arial"
+
+    },
+    "focus": 
+    {
+      "id":"segmentedUIDefaultFocusSkin",
+	  "background_color": "ffffff00",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "ff000000",
+      "border_color": "00000000",
+      "border_width": 1,
+      "border_style": "plain",
+      "font_color":"00000000",
+      "font_style":"italic",
+      "font_name":"Arial"
+    },
+    "sectionheader": 
+    {
+      "id":"segmentedUIDefaultSectionHeaderSkin",
+	  "background_color": "ffffffff",
+      "background_style": "plain",
+      "background_gradient_top_color": "ffffffff",
+      "background_gradient_bottom_color": "ffffffff",
+      "border_color": "b7d2ff00",
+      "font_color":"0000ff00",
+      "border_width": 0,
+      "font_name":"Arial-BoldMT",
+      "font_size":145
+    }
+
+  },
+
+    "23": 
+  {
+    "SkinModel": "ScrollBoxSkinModel",
+    "Skin": "ScrollBoxSkin",
+    "SkinTypes":[
+        "normal"
+    ],
+    "normal": 
+    {
+     "id":"defaultScrollBoxSkinModel",
+	  "background_color": "ff0000ff",
+      "background_style": "plain",
+      "border_color": "00000000",
+      "border_width": 0,
+      "font_color":"00000000",
+      "font_style":"normal",
+      "font_name":"Arial"
+    }
+    },
+     "25": 
+  {
+    "SkinModel": "PopupSkinModel",
+    "Skin": "PopupSkin",
+    "SkinTypes":[
+        "normal"
+    ],
+   "normal": 
+    {
+    "id":"__defaultPopupSkinModel__",
+	  "background_color": "ffffff00",
+      "background_style": "plain",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "00000ff0",
+      "background_image":"",
+      "border_color": "00000000",
+      "border_width": 1,
+      "border_style": "plain"
+    }
+  },
+      "21": 
+  {
+    "SkinModel": "LineSkinModel",
+    "Skin": "LineSkin",
+    "SkinTypes":[
+        "normal"
+    ],
+    "normal": {
+      "background_color": "0000ff00"
+    }
+  },
+  "40": 
+  {
+    "SkinModel": "CalendarCellSkinModel",
+    "Skin": "CalendarCellSkin",
+    "SkinTypes":[
+        "gridcellskin",
+        "gridcellselectedskin",
+        "gridcelltodayskin",
+        "monthskin",
+        "dayskin",
+        "doneButtonSkin"
+    ],
+    "monthskin":
+    {
+     "id":"__defaultCalendarCellSkinModel__",
+      "bg_type" : "one",
+      "background_color" : "ffffff00",
+      "font_color" : "00000000",
+      "font_name" : "Helvetica-Bold",
+      "font_size" : 160,
+      "customcss" : false,
+      "border_color" : "00000000",
+      "border_width" : 0,
+      "border_style" : "plain"
+    },
+    "dayskin": 
+    {
+     "id":"__defaultDayCalendarCellSkinModel__",
+      "bg_type" : "one",
+      "background_color" : "ffffff00",
+      "font_color" : "80808000",
+      "font_name" : "Helvetica",
+      "font_size" : 100,
+      "customcss" : false,
+      "border_color" : "00000000",
+      "border_width" : 0,
+      "border_style" : "plain"
+    }
+
+
+  },
+     "41": 
+  {
+    "SkinModel": "GridCalendarSkinModel",
+    "Skin": "GridCalendarSkin",
+    "SkinTypes":[
+        "normal"
+    ],
+    "normal": 
+    {
+     "id":"__defaultGridCalendarSkinModel__",
+      "bg_type" : "one",
+      "background_color" : "ffffff00",
+      "font_color" : "252d9000",
+      "font_name" : "Helvetica-Bold",
+      "font_size" : 160,
+      "customcss" : false,
+      "border_color" : "00000000",
+      "border_width" : 0,
+      "border_style" : "plain",
+      "leftnavbuttonimage" : "konyres_LeftArrow.png",
+      "rightnavbuttonimage" : "konyres_RightArrow.png",
+      "gridlinecolor" : "ffffff",
+      "days_font_name" : "Helvetica",
+      "days_font_color" : "80808000",
+      "days_font_weight" : "normal",
+      "days_font_style" : "none",
+      "days_font_size" : 100
+    }
+  },
+    "42": 
+  {
+    "SkinModel": "VBoxSkinModel",
+    "Skin": "VBoxSkin",
+    "SkinTypes":[
+        "normal",
+        "focus"
+    ],
+    "normal": 
+    {
+	  "id":"vBoxDefaultNormalSkin",
+      "background_color": "ffffffff",
+      "background_style": "plain",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "0fffff00",
+      "background_image":"",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "plain"
+    },
+    "focus": 
+    {
+      "id":"vBoxDefaultFocusSkin",
+	  "background_color": "ff000000",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "ff000000",
+      "border_color": "b7d2ff00",
+      "border_width": 0,
+      "border_style": "plain"
+    }
+
+  },
+  
+          "9": 
+  {
+    "SkinModel": "SliderSkinModel",
+    "Skin": "SliderSkin",
+    "SkinTypes":[
+        "left",
+        "right"
+    ],
+    "left": 
+    {
+	  "id":"__sliderDefaultLeftSkin__",
+      "background_style": "image"
+    },
+    "right": 
+    {
+      "id":"__sliderDefaultRightSkin__",
+      "background_style": "image"
+    }
+  },
+  
+        "17": 
+  {
+    "SkinModel": "SwitchSkinModel",
+    "Skin": "SwitchSkin",
+    "SkinTypes":[
+        "normal"
+    ],
+    "normal": 
+    {
+	  "id":"__switchDefaultSkin__",
+      "font_color":"00000000",
+      "font_name":"Arial",
+      "font_size" : 100,
+      "left_font_color" : "00000000",
+      "right_font_color" : "00000000",
+      "left_background_image" : "konyres_btn_slider_on.png",
+      "right_background_image" : "konyres_btn_slider_off.png",
+      "left_background_color": "0x007be100",
+      "right_background_color": "0xeeeeee00",
+     "tint_color": "0xeeeeee00",
+      "thumb_color": "0xffffff00"
+    }
+  },
+  
+  "26":
+  {
+    "SkinModel" : "ImageGallerySkinModel",
+    "Skin" : "ImageGallerySkin",
+    "SkinTypes" : [
+        "normal"
+    ],
+    "normal":
+    {
+        "id" : "__imageGalleryDefaultSkin__",
+        "background_color" : "C0C0C000",
+        "border_color" : "0000ff00",
+        "border_width" : 3
+    }    
+  },
+  "27":
+  {
+    "SkinModel" : "ImageStripSkinModel",
+    "Skin" : "ImageStripSkin",
+    "SkinTypes" : [
+        "normal"
+    ],
+    "normal":
+    {
+        "id" : "__imageStripDefaultSkin__",
+        "background_color" : "C0C0C000",
+        "border_color" : "0000ff00",
+        "border_width" : 3
+    }    
+  },
+    "29":
+  {
+    "SkinModel" : "OldImageGallerySkinModel",
+    "Skin" : "OldImageGallerySkin",
+    "SkinTypes" : [
+        "normal"
+    ],
+    "normal":
+    {
+        "id" : "__oldImageGalleryDefaultSkin__",
+        "background_color" : "C0C0C000",
+        "border_color" : "0000ff00",
+        "border_width" : 3
+    }    
+  },
+    "43":
+  {
+    "SkinModel" : "OldImageStripSkinModel",
+    "Skin" : "OldImageStripSkin",
+    "SkinTypes" : [
+        "normal"
+    ],
+    "normal":
+    {
+        "id" : "__oldImageStripDefaultSkin__",
+        "background_color" : "C0C0C000",
+        "border_color" : "0000ff00",
+        "border_width" : 3
+    }    
+  },
+            "45": 
+  {
+    "SkinModel": "DataGridSkinModel",
+    "Skin": "DataGridSkin",
+    "SkinTypes":[
+        "normal",
+        "focus",
+        "header",
+        "alternate"
+    ],
+    "normal": 
+    {
+      "id":"DataGridDefaultFocusSkin",
+	  "background_color": "ffffffff",
+      "background_style": "plain",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "0fffff00",
+      "background_image":"",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "plain",
+      "font_color":"00000000",
+      "font_style":"italic",
+      "font_name":"Arial",
+      "font_size":100
+
+    },
+    "focus": 
+    {
+      "id":"DataGridDefaultFocusSkin",
+	  "background_color": "ff000000",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "ff000000",
+      "border_color": "b7d2ff00",
+      "border_width": 1,
+      "border_style": "plain",
+      "font_color":"00000000",
+      "font_style":"plain",
+      "font_name":"Arial",
+      "font_size":100
+
+    },
+    "header": 
+    {
+      "id":"DataGridDefaultHeaderSkin",
+	  "background_color": "cccccc00",
+      "background_style": "plain",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "0fffff00",
+      "background_image":"",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "plain",
+      "font_color":"0a0a0a00",
+      "font_style":"italic",
+      "font_name":"Arial",
+      "font_size":100
+
+    },
+    "alternate": 
+    {
+      "id":"DataGridDefaultAlternateSkin",
+	  "background_color": "aabbccff",
+      "background_style": "plain",
+      "background_gradient_top_color": "0000ff00",
+      "background_gradient_bottom_color": "0fffff00",
+      "background_image":"",
+      "border_color": "00000000",
+      "border_width": 0,
+      "border_style": "plain",
+      "font_color":"00ff0000",
+      "font_style":"italic",
+      "font_name":"Arial",
+      "font_size":100
+
+    }
+  },
+      "101":
+  {
+    "SkinModel" : "GenericSkinModel",
+    "Skin" : "GenericSkin",
+    "SkinTypes" : [
+        "normal"
+    ],
+    "normal":
+    {
+        "id" : "__defaultgenericskin__"
+    }    
+  },
+        "102":
+  {
+    "SkinModel" : "TabSkinModel",
+    "Skin" : "TabSkin",
+    "SkinTypes" : [
+        "normal",
+        "active",
+        "activeFocus",
+        "inactive",
+        "page"
+    ],
+    "normal":
+    {
+        "id" : "__defaulttabskin__"
+    },
+    "active":
+    {
+        "id" : "__defaulttabactiveskin__",
+        "font_color" : "00000000",
+        "background_color"  :"E3E5EA00"
+    },
+    "activeFocus":
+    {
+        "id" : "__defaulttabactivefocusskin__",
+        "font_color" : "0000FF00",
+        "background_color"  :"0000FF00"
+    },
+    "inactive":
+    {
+        "id" : "__defaulttabinactiveskin__",
+        "font_color" : "FFFFFF00",
+        "background_color"  :"778BA700"
+    },
+        "page":
+    {
+        "id" : "__defaulttabinpageskin__",
+        "background_color"  :"0000FF00"
+    }
+  }
+}
+

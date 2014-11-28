@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>onSlide</key>
+	<dict>
+		<key>ext_acc_type</key>
+		<string>ReadWrite,SegUI</string>
+		<key>ext_out_type</key>
+		<string>JSCallBack</string>
+		<key>int_type</key>
+		<string>CallBack</string>
+		<key>ext_in_type</key>
+		<string>JSCallBack</string>
+		<key>int_name</key>
+		<string>onSlideCallBack</string>
+	</dict>
+	<key>leftSideText</key>
+	<dict>
+		<key>ext_acc_type</key>
+		<string>ReadOnly,SegUI</string>
+		<key>ext_out_type</key>
+		<string>JSString</string>
+		<key>int_type</key>
+		<string>NSString</string>
+		<key>ext_in_type</key>
+		<string>JSString</string>
+		<key>int_name</key>
+		<string>leftSideText</string>
+	</dict>
+	<key>rightSideText</key>
+	<dict>
+		<key>ext_acc_type</key>
+		<string>ReadOnly,SegUI</string>
+		<key>ext_out_type</key>
+		<string>JSString</string>
+		<key>int_type</key>
+		<string>NSString</string>
+		<key>ext_in_type</key>
+		<string>JSString</string>
+		<key>int_name</key>
+		<string>rightSideText</string>
+	</dict>
+	<key>selectedIndex</key>
+	<dict>
+		<key>ext_acc_type</key>
+		<string>ReadWrite,SegUI</string>
+		<key>ext_out_type</key>
+		<string>JSIndex</string>
+		<key>int_type</key>
+		<string>NativeIndex</string>
+		<key>ext_in_type</key>
+		<string>JSIndex</string>
+		<key>int_name</key>
+		<string>selectedIndex</string>
+	</dict>
+</dict>
+</plist>
