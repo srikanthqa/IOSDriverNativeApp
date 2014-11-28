@@ -1,7 +1,6 @@
 package com.citibank.tests;
 
 import com.citibank.pages.*;
-import com.citibank.testsuites.SmokeTests;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
