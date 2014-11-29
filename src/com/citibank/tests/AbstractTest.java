@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 public class AbstractTest {
 
 
-    private static final String[] args = {"-port", "4444", "-host", "localhost","-aut",System.getProperty("user.dir")+"/resources/R1GM225V05SIT.app"};
+    private static final String[] args = {"-port", "4444", "-host", "localhost","-aut",System.getProperty("user.dir")+"/resources/R1GM225V05SIT.app", "-newSessionTimeoutSec", "120"};
     private static final IOSServerConfiguration config = IOSServerConfiguration.create(args);
     private static final String url = "http://" + config.getHost() + ":" + config.getPort() + "/wd/hub";
     public static RemoteWebDriver driver;
